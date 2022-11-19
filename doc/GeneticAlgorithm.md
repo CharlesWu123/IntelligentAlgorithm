@@ -54,5 +54,39 @@ https://zhuanlan.zhihu.com/p/49055485
    将实际问题映射为二进制编码。使用二进制更方便做交叉和变异操作。
 
 10. 解码
-   
+
    将迭代结束后的二进制编码转换为实际问题的值。逆映射。
+
+
+
+```
+populationSize;		// 种群大小
+generations				// 迭代次数
+mutationRate			// 变异概率
+crossRate					// 交叉概率
+// 初始化种群
+population[populationSize]			// 种群
+for individual in population
+		individual = Encode();
+// 开始迭代
+while(generations--)
+		// 计算个体适应度
+		totalFitness = 0;
+		for individual in population
+				individual.fitness = Fitness();
+				totalFitness += individual.fitness;
+		// 计算个体概率
+		for individual in population
+				individual.prob = individual.fitness / totalFitness;
+		// 选择
+    for i in range(populationSize)
+    		populationPool[i] = population[SelectIndividual(Random(0,1))];
+    // 交叉
+    for i in range(populationSize // 2)
+    		Cross(populationPool, i, crossRate);
+    // 变异
+    for i in range(populationSize)
+    		Mutation(populationPool, i, mutationRate);
+    population <- populationPool
+```
+
