@@ -298,6 +298,15 @@
 
 # 代码结构
 
+```
+├── README.md     // 项目介绍
+├── doc           // 项目图片
+└── src           // 项目代码
+     ├── ants_colony_algorithm      // 蚁群算法代码
+     ├── genetic_algorithm          // 遗传算法代码
+     └── utils
+```
+
 # 运行方式
 
 ## 蚁群算法
