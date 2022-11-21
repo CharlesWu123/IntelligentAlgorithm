@@ -44,7 +44,8 @@
 
 ### 二、蚁群算法流程图和基本原理介绍
 #### 蚁群算法流程图
-![](./doc/im/image_1.png)
+<img src="./doc/im/image_1.png" style="zoom:67%;" />
+
 #### 蚁群算法基本原理介绍
 ![](./doc/im/im_1.png)
 ![](./doc/im/im_1.png)
@@ -126,7 +127,7 @@
 * 染色体变异: 即改变某个染色体的值
   
 
-![](./doc/ga/ga.png)
+<img src="./doc/ga/ga.png" style="zoom:67%;" />
 
 
 ### 三、遗传算法的几个基本概念
@@ -238,7 +239,7 @@
    | 3 | 011100 | 3 | 4 | 25 | 0.17 | 0 | 101011 |
    | 4 | 111001 | 7 | 1 | 50 | 0.35 | 2 | 111001 |
 
-   ![](./doc/ga/ga_选择.png)
+   <img src="./doc/ga/ga_选择.png" style="zoom:67%;" />
 
 5. 交叉运算
 
@@ -341,9 +342,9 @@ python src/genetic_algorithm/tsp.py
 为了更好的展示算法，该实验设置50只蚂蚁数，30座城市，信息素启发因子α=1，期望启发因子β=5，信息素蒸发率ρ=0.5，进行300次迭代
 300次迭代最短路径长度变化趋势以及最终最短路径如下图：
 
-![](./doc/im/result-3.png)
+<img src="./doc/im/result-3.png" style="zoom:67%;" />
 
-![](./doc/im/result-4.png)
+<img src="./doc/im/result-4.png" style="zoom:67%;" />
 
 
 ## 遗传算法
@@ -351,20 +352,20 @@ python src/genetic_algorithm/tsp.py
 ### 函数求解
 
 初始结果
-![](doc/ga/ga1.png)
+<img src="doc/ga/ga1.png" style="zoom:50%;" />
 
 最终结果
-![](doc/ga/ga2.png)
+<img src="doc/ga/ga2.png" style="zoom:50%;" />
 
 ### 旅行商 TSP 问题
 
 最佳路线
 
-![](doc/ga/path.png)
+<img src="doc/ga/path.png" style="zoom: 67%;" />
 
 迭代过程
 
-![](doc/ga/iter.png)
+<img src="doc/ga/iter.png" style="zoom:67%;" />
 
 # 算法分析
 
