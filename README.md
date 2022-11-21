@@ -311,13 +311,27 @@
 
 ## 蚁群算法
 
+旅行商TSP问题
 ```bash
 python src/genetic_algorithm/ants_colony_1.py
 ```
 
-## 遗传算法
+0-1背包问题
 ```bash
-python src/genetic_algorithm/train.py
+c++ main.cpp -o main
+./main
+```
+
+## 遗传算法
+
+函数求解
+```bash
+python src/genetic_algorithm/function.py
+```
+
+旅行商TSP问题
+```bash
+python src/genetic_algorithm/tsp.py
 ```
 
 # 运行结果
@@ -333,11 +347,24 @@ python src/genetic_algorithm/train.py
 
 
 ## 遗传算法
+
+### 函数求解
+
 初始结果
 ![](doc/ga/ga1.png)
 
 最终结果
 ![](doc/ga/ga2.png)
+
+### 旅行商 TSP 问题
+
+最佳路线
+
+![](doc/ga/path.png)
+
+迭代过程
+
+![](doc/ga/iter.png)
 
 # 算法分析
 
