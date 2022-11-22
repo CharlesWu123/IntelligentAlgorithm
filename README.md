@@ -48,8 +48,9 @@
 
 #### 蚁群算法基本原理介绍
 ![](./doc/im/im_1.png)
-![](./doc/im/im_1.png)
-![](./doc/im/im_1.png)
+![](./doc/im/im_2.png)
+<img src="./doc/im/im_3.png" style="zoom:67%;" />
+
 ### 三、示例
 为了简化计算量，本示例城市数n=4,蚂蚁数m=3
 
